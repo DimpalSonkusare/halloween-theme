@@ -14,6 +14,10 @@ ul {
     padding: 0;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
 li {
     display: inline-block;
     color: #e4c3ee;
@@ -26,7 +30,6 @@ a {
 
 .main-block {
     width: 100%;
-    background-image: url(../images/hallo-pattern-bg.png);
     overflow: auto;
     background-size: cover;
     background-position: center;
@@ -179,7 +182,7 @@ a {
     width: 45%;
     margin: 20px auto;
     overflow: auto;
-    padding-bottom:120px;
+    padding-bottom: 120px;
 }
 
 .time-container {
@@ -194,7 +197,8 @@ a {
     float: left;
     font-family: "Noto Sans", Arial, Tahoma, sans-serif;
 }
-p{
+
+p {
     margin: 0;
     padding: 0;
 }
@@ -220,7 +224,7 @@ p{
 
 .second-block {
     width: 100%;
-    padding: 150px 0px 120px 0px;
+    padding: 150px 0px 70px 0px;
     background-image: url(../images/second-sec-bg-img);
     background-size: contain;
     background-repeat: repeat;
@@ -240,30 +244,52 @@ p{
     font-family: 'Permanent Marker', cursive;
     color: #f0d9b1;
 }
-.img-desc{
+
+.img-desc {
     width: 70%;
-    margin: 0px auto 100px auto;
+    margin: 0px auto 90px auto;
     overflow: auto;
 }
-.images{
+
+.images {
     width: 50%;
     float: left;
 }
-.description{
+
+.description {
     width: 50%;
     float: left;
     padding: 60px;
 }
-.title{
+
+.title {
     color: #f0d9b1;
     font-size: 35px;
     line-height: 42px;
     font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
 }
-.detail{
+
+.detail {
     font-family: "Noto Sans", Arial, Tahoma, sans-serif;
     font-size: 14px;
     line-height: 25px;
     color: #e6e6e6;
     margin: 30px 0px;
+}
+.plan{
+    width: 100%;
+    background-image: url(../images/hallo-pattern-bg.png); background-image: url(../images/hallo-pattern-bg.png);
+    background-size: contain;
+    padding: 100px 0px;
+}
+
+.plan-title {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    color: #f0d9b1;
+    margin: 30px auto;
+    font-size: 50px;
+    line-height: 55px;
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
 }
