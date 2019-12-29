@@ -28,7 +28,7 @@ a {
     width: 100%;
     background-image: url(../images/hallo-pattern-bg.png);
     overflow: auto;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -123,7 +123,7 @@ a {
 
 .fb {
     width: 20%;
-    margin: 5px auto;
+    margin: auto;
     float: left;
     text-align: center;
 }
@@ -132,11 +132,138 @@ a {
     width: 80%;
     float: left;
     color: white;
+    margin: 8px 0px;
     line-height: 23px;
     font-size: 16px;
     font-family: "Noto Sans";
 }
-.ghost{
+
+.ghost {
     width: 65%;
     margin: auto;
+}
+
+.ready-container {
+    width: 65%;
+    margin: auto;
+}
+
+.ready {
+    text-align: center;
+    font-size: 50px;
+    line-height: 55px;
+    color: #f0d9b1;
+    margin: 133px auto 0px auto;
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+}
+
+.location-logo {
+    text-align: center;
+    margin: 20px;
+}
+
+.address {
+    text-align: center;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 28px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.line {
+    text-align: center;
+}
+
+.time {
+    width: 45%;
+    margin: 20px auto;
+    overflow: auto;
+    padding-bottom:120px;
+}
+
+.time-container {
+    width: 33.33%;
+    float: left;
+    margin: 10px 0px;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+}
+
+.days {
+    width: 100%;
+    float: left;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.number {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.day {
+    text-align: center;
+    color: #f6a626;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.boo-devider {
+    height: 8%;
+    width: 100%;
+    background-image: url(../images/hallo-bot-gradient.png);
+}
+
+.second-block {
+    width: 100%;
+    padding: 150px 0px 120px 0px;
+    background-image: url(../images/second-sec-bg-img);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: bottom;
+}
+
+.eyes {
+    position: absolute;
+    top: 30;
+}
+
+.attractions {
+    width: 65%;
+    padding: 50px 0px 70px;
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    color: #f0d9b1;
+}
+.img-desc{
+    width: 70%;
+    margin: 0px auto 100px auto;
+    overflow: auto;
+}
+.images{
+    width: 50%;
+    float: left;
+}
+.description{
+    width: 50%;
+    float: left;
+    padding: 60px;
+}
+.title{
+    color: #f0d9b1;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+}
+.detail{
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #e6e6e6;
+    margin: 30px 0px;
 }
