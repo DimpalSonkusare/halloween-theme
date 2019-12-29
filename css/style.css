@@ -1,0 +1,142 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    color: #e4c3ee;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-block {
+    width: 100%;
+    background-image: url(../images/hallo-pattern-bg.png);
+    overflow: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.logo-container {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.left-top {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.right-top {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.menubar {
+    width: 100%;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    margin: 20px auto;
+    font-size: 15px;
+}
+
+.padding {
+    padding: 0px 15px;
+}
+
+.ep {
+    padding: 0px 40px;
+}
+
+.colr {
+    color: #f6a626;
+}
+
+.img {
+    top: 0px;
+    position: absolute;
+}
+
+.date {
+    color: black;
+    line-height: 25px;
+    margin: 70px auto 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Noto Sans";
+    color: #e6e6e6;
+}
+
+.halloween {
+    text-align: center;
+    font-size: 70px;
+    line-height: 74px;
+    color: #f0d9b1;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.color {
+    color: #8b3400;
+}
+
+.sign {
+    width: 15%;
+    padding: 0px 40px;
+    background-color: #f6a626;
+    font-family: "Noto Sans";
+    font-weight: 650;
+    margin: 30px auto;
+    line-height: 43px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 25px;
+}
+
+.fb-lorem {
+    width: 38%;
+    margin: 70px auto 2px auto;
+    overflow: auto;
+}
+
+.fb {
+    width: 20%;
+    margin: 5px auto;
+    float: left;
+    text-align: center;
+}
+
+.lorem {
+    width: 80%;
+    float: left;
+    color: white;
+    line-height: 23px;
+    font-size: 16px;
+    font-family: "Noto Sans";
+}
+.ghost{
+    width: 65%;
+    margin: auto;
+}
