@@ -14,10 +14,11 @@ ul {
     padding: 0;
 }
 
-p{
+p {
     margin: 0;
     padding: 0;
 }
+
 li {
     display: inline-block;
     color: #e4c3ee;
@@ -31,6 +32,7 @@ a {
 .main-block {
     width: 100%;
     overflow: auto;
+    background-image: url(../images/hallo-pattern-bg.png);
     background-size: cover;
     background-position: center;
 }
@@ -276,11 +278,14 @@ p {
     color: #e6e6e6;
     margin: 30px 0px;
 }
-.plan{
+
+.plan {
     width: 100%;
-    background-image: url(../images/hallo-pattern-bg.png); background-image: url(../images/hallo-pattern-bg.png);
-    background-size: contain;
-    padding: 100px 0px;
+    background-image: url(../images/hallo-pattern-bg.png);
+    background-image: url(../images/hallo-pattern-bg.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 100px 0px 80px 0px;
 }
 
 .plan-title {
@@ -288,8 +293,136 @@ p {
     margin: auto;
     text-align: center;
     color: #f0d9b1;
-    margin: 30px auto;
+    margin: 30px auto 120px auto;
     font-size: 50px;
     line-height: 55px;
     font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+}
+
+.plan-details {
+    width: 70%;
+    overflow: auto;
+    margin:0px auto 30px auto;
+}
+
+.blank {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.plan-titles {
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    color: #f0d9b1;
+    padding: 15px 0px 0px 25px;
+}
+
+.plan-detail {
+    padding: 30px;
+    width: 50%;
+    float: left;
+    padding: 15px 0px 15px 25px;
+    color: #e6e6e6;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+}
+.right-padding{
+    padding: 15px 0px 15px 25px;
+}
+.left-padding{
+    padding: 15px 25px 0px 0px;
+}
+.detail-padding{
+    padding: 15px 25px 15px 0px;
+}
+.right{
+    text-align: right;
+}
+.sign-up{
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 12%;
+    background-color: #f6a626;
+    font-family: "Noto Sans";
+    font-weight: 650;
+    margin: 90px auto;
+    line-height: 43px;
+    text-align: center;
+    font-size: 19px;
+}
+.slick-track-sec{
+    width: 100%;
+    overflow: auto;
+}
+.slick-track{
+    width: 55%;
+    margin: auto;
+    float: left;
+    overflow: auto;
+    padding: 90px 0px 0px 0px;
+    background-image: url(../images/hallo-line-bg.png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.left-arrow{
+    float: left; 
+    opacity: 0.3;
+}
+.traack-img{
+    float: left;
+    margin: auto;
+}
+.right-arrow{
+    float: left;
+    opacity: 0.3;
+}
+.sec-4{
+    width: 100%;
+    background-image: url(../images/hallo-footer-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.ready-title{
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+    font-size: 50px;
+    margin: auto;
+    padding: 150px 0px 20px 0px;
+    line-height: 65px;
+    text-align: center;
+    color: #f0d9b1;
+}
+.form{
+    width: 100%;
+}
+.form-container{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.name{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+.padding-2{
+    opacity: 0.5;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    padding: 10px;
+    color: #e6e6e6;
+    font-size: 13px;
+    background-color: #584b72;
+}
+.subject{
+    width: 100%;
+    opacity: 0.5;
+    color: #e6e6e6;
+    font-size: 13px;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    background-color: red;
+    padding: 10px;
 }
