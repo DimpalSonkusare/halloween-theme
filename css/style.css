@@ -27,16 +27,29 @@ li {
 a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .main-block {
     width: 100%;
     overflow: hidden;
-    background-image: url(../images/hallo-pattern-bg.png);
+    background-image: url(../images/full-page.png), url(../images/hallo-pattern-bg.png);
+    position: relative;
+    background-repeat: no-repeat, repeat;
+    background-size: contain, cover;
+    background-position: center top;
+}
+/*
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    background-image:url(../images/full-page.png);
     position: relative;
     background-size: cover;
     background-position: center;
 }
+*/
 
 .container {
     width: 80%;
