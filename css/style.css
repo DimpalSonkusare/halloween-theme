@@ -39,6 +39,7 @@ a {
     background-size: contain, cover;
     background-position: center top;
 }
+
 /*
 }
 .main{
@@ -170,6 +171,7 @@ a {
 .ready {
     text-align: center;
     font-size: 50px;
+    padding: 10% 0px 0px;
     line-height: 55px;
     color: #f0d9b1;
     margin: 133px auto 0px auto;
