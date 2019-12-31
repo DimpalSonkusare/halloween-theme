@@ -453,11 +453,48 @@ p {
     background-color: #f6a626;
     text-align: center;
 }
-.padding-3{
-    padding: 0;
-}
-.footer{
+
+.footer {
     width: 100%;
     padding: 40px 0px;
     background-color: #1a1425;
+}
+.logo-container2 {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+.eyes-gif {
+    width: 100%;
+    position: absolute;
+    top: 20;
+}
+.footer-content {
+    margin: 50px auto 100px auto;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #cdcaca;
+    text-align: center;
+}
+.2019{
+    width: 100%;
+    overflow: auto;
+    margin: 20px auto;
+}
+.line{
+    float: left;
+}
+.anchor{
+    float: left;
+}
+.up{
+    float: right;
+}
+.colorr{
+    color: #cdcaca;
+    float: left;
+}
+.yellow{
+    color: #f6a626;
 }
