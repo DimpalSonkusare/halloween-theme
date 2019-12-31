@@ -302,7 +302,7 @@ p {
 .plan-details {
     width: 70%;
     overflow: auto;
-    margin:0px auto 30px auto;
+    margin: 0px auto 30px auto;
 }
 
 .blank {
@@ -329,19 +329,24 @@ p {
     font-size: 16px;
     line-height: 31px;
 }
-.right-padding{
+
+.right-padding {
     padding: 15px 0px 15px 25px;
 }
-.left-padding{
+
+.left-padding {
     padding: 15px 25px 0px 0px;
 }
-.detail-padding{
+
+.detail-padding {
     padding: 15px 25px 15px 0px;
 }
-.right{
+
+.right {
     text-align: right;
 }
-.sign-up{
+
+.sign-up {
     border-radius: 5px;
     padding: 8px 10px;
     width: 12%;
@@ -353,11 +358,13 @@ p {
     text-align: center;
     font-size: 19px;
 }
-.slick-track-sec{
+
+.slick-track-sec {
     width: 100%;
     overflow: auto;
 }
-.slick-track{
+
+.slick-track {
     width: 55%;
     margin: auto;
     float: left;
@@ -369,25 +376,30 @@ p {
     background-repeat: no-repeat;
     text-align: center;
 }
-.left-arrow{
-    float: left; 
+
+.left-arrow {
+    float: left;
     opacity: 0.3;
 }
-.traack-img{
+
+.traack-img {
     float: left;
     margin: auto;
 }
-.right-arrow{
+
+.right-arrow {
     float: left;
     opacity: 0.3;
 }
-.sec-4{
+
+.sec-4 {
     width: 100%;
     background-image: url(../images/hallo-footer-bg.png);
     background-position: center;
     background-size: cover;
 }
-.ready-title{
+
+.ready-title {
     font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
     font-size: 50px;
     margin: auto;
@@ -396,33 +408,56 @@ p {
     text-align: center;
     color: #f0d9b1;
 }
-.form{
+
+.form {
     width: 100%;
 }
-.form-container{
-    width: 50%;
+
+.form-container {
+    width: 35%;
     margin: auto;
-    padding: 50px 0px;
+    padding: 0px 0px 600px 0px;
 }
-.name{
+
+.name {
     width: 50%;
-    padding: 10px;
+    padding: 5px;
     float: left;
 }
-.padding-2{
-    opacity: 0.5;
+
+.padding-2 {
     font-family: "Noto Sans", Arial, Tahoma, sans-serif;
     padding: 10px;
-    color: #e6e6e6;
+    color: darkgrey;
     font-size: 13px;
     background-color: #584b72;
 }
-.subject{
+
+.width {
+    width: 100%;
+}
+
+.subject {
     width: 100%;
     opacity: 0.5;
     color: #e6e6e6;
     font-size: 13px;
     font-family: "Noto Sans", Arial, Tahoma, sans-serif;
-    background-color: red;
     padding: 10px;
+}
+
+.borderr {
+    border-radius: 5px;
+    color: #8b3400;
+    opacity: 1;
+    background-color: #f6a626;
+    text-align: center;
+}
+.padding-3{
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #1a1425;
 }
